@@ -1,0 +1,55 @@
+  115  cp test.c studyC/
+  116  cd studyC/
+  117  ls
+  118  git init
+  119  ls
+  120  cd studyC/
+  121  ls
+  122  git remote -v
+  123  git remote add origin https://github.com/syive525/StudyC.git
+  124  git remote -v
+  125  git status 
+  126  git add test.c 
+  127  git status 
+  128  git commit -m "initial hello world"
+  129  git config --global user.email "wangbiaouestc@gmail.com"
+  130  git config --global user.name "biaowang"
+  131  git log -3
+  132  git status 
+  133  git commit -m "initial hello world"
+  134  git log -3
+  135  git push
+  136  git config --global push.default matching
+  137  git push
+  138  cd
+  139  cd studyC/
+  140  ls
+  141  cd
+  142  git clone https://github.com/syive525/StudyC.git
+  143  ls
+  144  rm studyC/ -rf 
+  145  rm StudyC/ -rf
+  146  ls
+  147  git clone https://github.com/syive525/StudyC.git
+  148  ls
+  149  cd
+  150  cd StudyC/
+  151  ls
+  152  cp ../test.c lk
+  153  ls
+  154  vim lk 
+  155  rm lk
+  156  ls
+  157  cp ../test.c .
+  158  ls
+  159  git status 
+  160  git add test.c 
+  161  ls
+  162  git status
+  163  git commit -m "hello world"
+  164  git log -3
+  165  git log -
+  166  git log -1
+  167  git log -2
+  168  git push
+  169  history > cmdtopush.txt
